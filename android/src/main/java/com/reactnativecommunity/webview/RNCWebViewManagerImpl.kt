@@ -157,7 +157,7 @@ class RNCWebViewManagerImpl {
                         }
                         mVideoView = view
                         mCustomViewCallback = callback
-                        activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED
+                        activity.requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
                         mVideoView.systemUiVisibility = FULLSCREEN_SYSTEM_UI_VISIBILITY
                         activity.window.setFlags(
                             WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
